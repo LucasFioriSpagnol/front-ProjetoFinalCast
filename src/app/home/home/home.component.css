@@ -1,0 +1,70 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://static-cse.canva.com/blob/184311/Fundo-de-Arco-%C3%8Dris-para-Zoom-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed; top: 0; left: 0; 
+    
+}
+
+.texto{
+    position: absolute;
+    top: 0px;
+    left: 550px;
+    width: 800px;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    border-radius: 400px;
+}
+h1{
+    position: absolute;
+    top: 80px;
+    left: 280px;  
+}
+
+#p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: absolute;
+    top: 670px;
+    left: 100px;  
+}
+
+#p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top: 700px;
+    left: 220px; 
+}
+
+button{
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    top: 770px;
+    left: 250px; 
+    background-color: gold;
+    color:red;
+}
+
+button:hover{
+    background-color:  goldenrod;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 160px;
+    left: 150px; 
+}
